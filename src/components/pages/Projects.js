@@ -1,4 +1,4 @@
-import { data, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 
 import { useEffect, useState } from "react";
 
@@ -66,7 +66,7 @@ function Projects() {
           {message && <Message type="sucess" msg={message} />}
           {projectMessage && <Message type="sucess" msg={projectMessage} />}
         <Container customClass="start">
-          {projects.length > 0 && projects.map((project) => (<ProjectCard id={project.id} name={project.name} budget={project.budget} category={project.category.name} key={project.id} handleRemove={removeProject} />))}
+          {projects.length > 0 && projects.map((project) => (<ProjectCard id={project.id} name={project.name} budget={project.budget} category={project.category ? project.category.name : 'Sem categorias'} key={project.id} handleRemove={removeProject} />))}
           {!removeLoading && <Loading />}
           {removeLoading && projects.length === 0 && (
             <p>Não há projetos cadastrados!</p>
