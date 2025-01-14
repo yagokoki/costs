@@ -12,20 +12,9 @@
       "services": []
     },
     {
-      "id": "14ef",
-      "name": "Projeto 21",
-      "budget": "21000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
       "id": "4fd9",
       "name": "Projeto 31",
-      "budget": "31000",
+      "budget": "31001",
       "category": {
         "id": "4",
         "name": "Planejamento"
