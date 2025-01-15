@@ -19,8 +19,33 @@
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": []
+      "cost": 30011,
+      "services": [
+        {
+          "name": "Contrato de terceirizada",
+          "cost": "15000",
+          "description": "Empresa terceirizada",
+          "id": "7db542bb-092d-41b7-a779-34ccc50d1132"
+        },
+        {
+          "name": "Palestra",
+          "cost": "15000",
+          "description": "palestra de negócios",
+          "id": "19ffa088-d7e1-4087-acb6-9c23b6871671"
+        },
+        {
+          "name": "Doce para os funcionários",
+          "cost": "10",
+          "description": "Comemoração",
+          "id": "4a9d3512-7f2d-4b7b-b37f-ce8475d8274c"
+        },
+        {
+          "name": "1 real",
+          "cost": "1",
+          "description": "1 real",
+          "id": "28a68884-cd0d-4566-a1d8-0638451a7419"
+        }
+      ]
     }
   ],
   "categories": [
